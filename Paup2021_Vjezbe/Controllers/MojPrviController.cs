@@ -37,5 +37,9 @@ namespace Paup2021_Vjezbe.Controllers
 
             return View();
         }
+        public string vratiVrijeme()
+        {
+            return DateTime.Now.ToString();
+        }
     }
 }
